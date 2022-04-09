@@ -1,22 +1,24 @@
 #include <stdio.h>
-
 /**
- * main
+ * main - Print Hexadecimal
  *
  * Return: Always (Success)
  */
- int main(void)
+
+int main(void)
 {
-	char c;
-
-	for (c ='0'; c <='9'; c++)
+	int i = 48;
+	int j = 97;
+	while (i <= 57)
 	{
-		putchar(c);
+		putchar(i);
+		i++;
 	}
-	for (c='a';c<='f'; c++)
+	while (j <= 102)
 	{
-		putchar(c);
+		putchar(j);
+		j++;
 	}
-	putchar('\n');
-
+	putchar(10);
 	return (0);
+}
