@@ -13,6 +13,6 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	putchar(32);
+	putchar(10);
 	return (0);
 }
