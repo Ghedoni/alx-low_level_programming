@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - Prints numbers 0-9 
+ * main - Prints numbers
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i = 48;
+	int start = 48;
 
-	while (i <= 57)
+	while (start <= 57)
 	{
-		putchar(i);
-		i++;
+		putchar(start);
+		start++;
 	}
 	putchar(10);
 	return (0);
