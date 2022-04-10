@@ -2,7 +2,7 @@
 
 /**
  * main - combinations of single-digit numbers
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -11,12 +11,12 @@ int main(void)
 	while (c <= 9)
 	{
 		putchar(c);
-		c++;
-	}
 	while (c != 9)
-	{
+	{ 
 		putchar(',');
-		putchar('');
+		putchar(32);
+		c++;	
+	}
 	}
 	putchar(10);
 	return (0);
