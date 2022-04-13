@@ -13,7 +13,7 @@ void print_times_table(int n)
 
 	while (a <= n)
 	{
-		for (b = o; b <= n; b++)
+		for (b = 0; b <= n; b++)
 		{
 			rep = a * b;
 
