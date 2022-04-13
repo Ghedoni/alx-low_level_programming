@@ -17,7 +17,7 @@ void times_table(void)
 			rep = a * b;
 			if (b == 0)
 			{
-				_Putchar('0' + rep);
+				_putchar('0' + rep);
 			}
 			else if (rep < 10)
 			{
