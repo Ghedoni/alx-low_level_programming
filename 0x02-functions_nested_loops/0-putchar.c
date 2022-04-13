@@ -1,7 +1,7 @@
-#include "main.h"
+#include <main.h>
 /**
  * main - Entry point
- * Return: nothing, return void
+ * Return: Nothing, return void
  */
 int main(void)
 {
@@ -14,5 +14,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
