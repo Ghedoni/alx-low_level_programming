@@ -1,11 +1,10 @@
 #include "main.h"
 /*
- * _strlen - This function returns the length of the strings
- * @s: Variable that contains a character array to be counted
- * Return: length of the string
+ * _strlen - gives the length of a string
+ * @s: the string
+ * Return: Length of the string
  */
 int _strlen(char *s)
-
 {
 	int i;
 
