@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _memcpy - a function that copies memory area
+ * _memset - fill a block of memory with a specific value
  * @dest: memory where is stored
- * @src: memory where is copied
- * @n: number of bytes
- * Return: copied memory with n byted changed
+ * @src: starting address of memory to be filled
+ * @n: the desired value
+ * Return: change array with the new value of n byte
  */
 char *_memset(char *s, char *b, unsigned int n)
 {
