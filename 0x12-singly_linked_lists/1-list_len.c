@@ -1,4 +1,5 @@
 #include "list.h"
+
 /**
  * list_len - function that returns number of elements in links
  * @h: parameter list
