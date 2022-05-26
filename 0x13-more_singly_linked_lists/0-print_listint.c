@@ -1,7 +1,7 @@
 #include "list.h"
 
 /**
- * print_listint - ftn that prints elements of a list
+ * print_listint - prints all elements of a list
  * @h: head of a list
  * Return: No. of nodes
  */
